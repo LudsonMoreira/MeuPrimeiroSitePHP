@@ -1,0 +1,19 @@
+{
+  "nome": "Ludson Pereira Moreira",
+  "idade": 25,
+  "naturalidade": "Cascavel",
+  "nacionalidade": "Brasil"
+},
+{
+  "nome": "Luciana da Silva Pereira Moreira",
+  "idade": 52,
+  "naturalidade": "Uberlândia",
+  "nacionalidade": "Brasil",
+  "idade_filhos": [25, 22],
+  "info_filhos": {
+    "nomes": ["Ludson Pereira Moreira", "Maria Cândida Pereira Moreira"]
+  }
+},
+{
+  "nome": "Edson Moreira"
+}
