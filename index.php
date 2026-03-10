@@ -77,16 +77,13 @@
     <br />
 
     <h2 class="betania-patmos-regular">Para hoje temos: </h2>
+    <?php
+        foreach ($tarefas as $item):
+    ?>
     <ul>
-        <li>
-            <p>O que eu tenho que fazer?
-                <?php echo htmlspecialchars($tarefas["tarefa"]); ?>
-            </p>
-            <p>Quando eu salvei essa tarefa?
-                <?php echo htmlspecialchars($tarefas["data"]); ?>
-            </p>
-        </li>
+        <li><?php echo htmlspecialchars($item["tarefa"]); ?></li>
     </ul>
+    <?php endforeach; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
